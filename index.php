@@ -1,7 +1,8 @@
 
 <!-- organize -->
 <?php
-include "./components/header.php";
-include "./components/body.php";
-include "./components/footer.php";
+include "header.php";
+include "body.php";
+include "chatbox.php";
+include "footer.php";
 ?>
