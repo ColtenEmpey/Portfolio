@@ -1,3 +1,7 @@
+h1, p{
+  transition: all .5s;
+  transition-timing-function: ease-in-out;
+}
 .content{
   display: flex;
   flex-direction: column;
@@ -154,6 +158,16 @@
     height: 100%;
     color: rgba(255,255,255,0);
     text-shadow: none;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .project-left a{
+    color: rgba(255,255,255,0);
+    text-shadow:none;
+  }
+  .project-right a{
+    color: rgba(255,255,255,0);
+    text-shadow:none;
   }
   .project-left:hover{
     clip-path: polygon(
@@ -170,6 +184,10 @@
   .project-left:hover h2{
     color: rgba(255,255,255,0);
     text-shadow:none;
+  }
+  .project-left:hover a{
+    color: white;
+    text-shadow: 2px 2px 3px black;
   }
   .project-left:hover p{
     color: white;
@@ -205,6 +223,10 @@
     color: white;
     text-shadow: 2px 2px 3px black;
   }
+  .project-right:hover a{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+  }
 
 .s-description{
   display: flex;
@@ -212,6 +234,12 @@
 }
 
 /* ----------------------------------------------------------about me */
+.aboutMe h1{
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  align-self: center;
+}
 .aboutMe{
   align-self: center;
   color: white;
@@ -226,6 +254,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 .aboutL , .aboutR{
   width: 50%;
@@ -265,9 +294,10 @@
   transition-timing-function: ease-in-out;
 }
 .expandL p, .expandR p{
-  margin-left: 4em;
-  margin-right: 4em;
-  margin-top: 2em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-top: 4em;
+  margin-bottom: 4em;
   color: rgba(255,255,255,0);
   text-shadow: none;
 }
@@ -476,7 +506,7 @@ body{
     height:400px;
     width: 250px;
   }
-  
+   
   .icon{
     visibility: hidden;
     width: 60px;
@@ -486,6 +516,11 @@ body{
     bottom:0;
     right:0;
     padding: 10px;
+  }
+  .p-title{
+    position: absolute;
+    bottom:15%;
+    align-self: center;
   }
 
   /* ----------------------------------------------------------media queries */

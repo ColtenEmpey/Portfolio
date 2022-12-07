@@ -23,7 +23,7 @@
                     </a>
                 </div>
                 <div class='info'>
-                    <a class="nav" href= projects.php >Projects</a>
+                    <a class="nav" href= ./projects/projects.php >Projects</a>
                     <a class="nav" href="#aboutMe" >About Me</a>
                     <a  href='https://github.com/ColtenEmpey' target='_blank'> 
                             <svg class='media' xmlns='http://www.w3.org/2000/svg' width='25' height='25' fill='currentColor' class='bi bi-github' viewBox='0 0 16 16'>
